@@ -1,0 +1,20 @@
+% Header includes for the JABDE treatise (xelatex)
+\usepackage{etoolbox}
+\usepackage{float}
+\floatplacement{figure}{H}
+\usepackage{caption}
+\captionsetup{font=small,labelfont=bf,width=0.92\textwidth}
+\AtBeginEnvironment{Highlighting}{\footnotesize}
+\AtBeginEnvironment{verbatim}{\footnotesize}
+\AtBeginEnvironment{longtable}{\small}
+\setlength{\LTleft}{0pt}
+\setlength{\LTright}{0pt}
+\usepackage{titling}
+\pretitle{\begin{center}\large\bfseries}
+\posttitle{\par\end{center}\vskip 0.5em}
+\preauthor{\begin{center}\normalsize}
+\postauthor{\par\end{center}}
+\predate{\begin{center}\small\itshape}
+\postdate{\par\end{center}}
+\setcounter{secnumdepth}{0}
+\renewcommand{\thefigure}{\arabic{figure}}

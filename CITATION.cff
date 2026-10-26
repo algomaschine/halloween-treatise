@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "JABDE Halloween treatise: Kp/Ap and worldwide UFO search interest"
+type: software
+authors:
+  - family-names: Samokhvalov
+    given-names: Eduard
+license: MIT
+date-released: 2026-10-26
+repository-code: "https://github.com/algomaschine/halloween-treatise"
+keywords: [geomagnetic indices, Kp, Ap, Google Trends, Granger causality, reproducible research, satire]
